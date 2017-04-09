@@ -9,10 +9,13 @@
 import UIKit
 
 class OvaryViewController: UIViewController {
-
+    var score: Int = 0
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+  
+        randomHormoneDrop()
         // Do any additional setup after loading the view.
     }
 
@@ -26,7 +29,17 @@ class OvaryViewController: UIViewController {
     }
     
     func randomHormoneDrop() {
-        
+        let imageName = "hormone.png"
+        let hormone = UIImage(named: imageName)
+   
+        while (score < 10) {
+     
+            let imageView = UIImageView(image: hormone)
+            
+            imageView.frame = CGRect(x: 50, y: 200, width: 15, height: 15)
+            view.addSubview(imageView)
+            
+        }
     }
 
     /*
