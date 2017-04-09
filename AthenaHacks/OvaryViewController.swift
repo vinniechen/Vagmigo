@@ -21,6 +21,13 @@ class OvaryViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func generateHormone() {
+        
+    }
+    
+    func randomHormoneDrop() {
+        
+    }
 
     /*
     // MARK: - Navigation

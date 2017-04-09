@@ -150,30 +150,6 @@
                                     <segue destination="8nf-B4-KUe" kind="show" id="U3u-T4-MwG"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone" translatesAutoresizingMaskIntoConstraints="NO" id="sCa-Lu-4gg">
-                                <rect key="frame" x="50" y="79" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone" translatesAutoresizingMaskIntoConstraints="NO" id="b00-ie-lpZ">
-                                <rect key="frame" x="121" y="60" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone" translatesAutoresizingMaskIntoConstraints="NO" id="u3C-WT-jzX">
-                                <rect key="frame" x="50" y="379" width="16" height="16"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone" translatesAutoresizingMaskIntoConstraints="NO" id="0A7-SY-brZ">
-                                <rect key="frame" x="137" y="397" width="16" height="16"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone" translatesAutoresizingMaskIntoConstraints="NO" id="WGE-F5-2zW">
-                                <rect key="frame" x="253" y="390" width="16" height="16"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone" translatesAutoresizingMaskIntoConstraints="NO" id="ZmL-La-BL0">
-                                <rect key="frame" x="245" y="79" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -291,9 +267,6 @@
             <point key="canvasLocation" x="31.875" y="36.971830985915496"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="hormone" width="16" height="16"/>
-    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="U3u-T4-MwG"/>
     </inferredMetricsTieBreakers>
