@@ -1,22 +1,19 @@
 //
-//  UterusViewController.swift
+//  EmotionsExplanationViewController.swift
 //  AthenaHacks
 //
-//  Created by Vinnie Chen on 4/8/17.
+//  Created by Bema Kwadwo Bonsu on 4/8/17.
 //  Copyright © 2017 Vinnie Chen. All rights reserved.
 //
 
 import UIKit
 
-class UterusViewController: UIViewController {
+class EmotionsExplanationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    @IBAction func onNext(_ sender: Any) {
-        //self.performSegue(withIdentifier: "uterusOvarySegue", sender: nil)
     }
 
     override func didReceiveMemoryWarning() {

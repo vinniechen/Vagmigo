@@ -2,23 +2,16 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "hormone-2.png",
+      "filename" : "BackgroundAlone copy.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "hormone-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
       "scale" : "3x"
-    },
-    {
-      "idiom" : "universal",
-      "filename" : "hormone.png",
-      "unassigned" : true,
-      "scale" : "1x"
     }
   ],
   "info" : {
