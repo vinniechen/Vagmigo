@@ -10,11 +10,13 @@ import UIKit
 
 class WallBreakdownViewController: UIViewController {
     @IBOutlet weak var presentLabel: UILabel!
+    @IBOutlet weak var presentButton: UIButton!
 
     @IBOutlet weak var brick1: UIButton!
     @IBOutlet weak var brick2: UIButton!
     @IBOutlet weak var brick3: UIButton!
     @IBOutlet weak var brick4: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +27,10 @@ class WallBreakdownViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    @IBAction func onPresentButton(_ sender: Any) {
+        presentLabel.isHidden = true
+        presentButton.isHidden = true
     }
     
     @IBAction func onBrick1(_ sender: Any) {
