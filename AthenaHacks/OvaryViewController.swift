@@ -97,7 +97,7 @@ class OvaryViewController: UIViewController {
     }
     @IBAction func onPurple4(_ sender: Any) {
         if (purple4.isHidden) {
-            purple1.isHidden = false
+            purple4.isHidden = false
             score += 4
             checkWin()
         }
@@ -202,6 +202,7 @@ class OvaryViewController: UIViewController {
     }
     
     func updateScore() -> Bool {
+        print("score: \(score)")
         if (score == 0) {
             gaugeLabel.text = "Nothing Selected!"
         }
