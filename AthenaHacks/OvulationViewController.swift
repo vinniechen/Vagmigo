@@ -10,12 +10,44 @@ import UIKit
 
 class OvulationViewController: UIViewController {
 
+    @IBOutlet weak var vagmigoImage: UIImageView!
+    @IBOutlet weak var beforeButton: UIButton!
+    @IBOutlet weak var beforeLabel: UILabel!
+    @IBOutlet weak var eggImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func onPress(_ sender: Any) {
+        print("press")
+        beforeButton.isHidden = true
+        beforeLabel.isHidden = true
+        moveEggLeft()
+        moveEggUp()
+        
+    }
+    
+    func moveEggLeft() {
+        UIView.animate(withDuration: 0.7) {
+            self.eggImage.center.x -= 80
+            self.vagmigoImage.center.x -= 80
+            self.eggImage.center.y -= 45
+            self.vagmigoImage.center.y -= 45
+        }
+    }
+    
+    func moveEggUp() {
+        UIView.animate(withDuration: 0.7) {
+            self.eggImage.center.y -= 200
+            self.vagmigoImage.center.y -= 200
+            
+            self.eggImage.center.x += 100
+            self.vagmigoImage.center.x += 100
+        }
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

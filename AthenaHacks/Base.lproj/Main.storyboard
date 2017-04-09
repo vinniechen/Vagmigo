@@ -306,7 +306,7 @@
                                 <rect key="frame" x="24" y="180" width="272" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.43024512343191657" green="0.62246844679861735" blue="0.92755681280000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">The ovarian follicle contains the egg that's released every month, along with cells that release the hormone estrogen. The brain sends hormones that help the ovarian follicle grow. Help Vagmigo find the right combination of hormones that are hidden around the ovarian follicle by tapping and untapping. Tap to Begin</string>
+                                <string key="text">In the ovary, there are ovarian follicles that each contain an egg and cells. Hormones from the brain such as FSH and LH help to make the ovarian follicle grow. Help Vagmigo find the right combination of hormones that are hidden around the ovarian follicle by tapping and untapping. Tap to Begin.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -395,16 +395,45 @@
                                     <segue destination="xtl-N3-8vV" kind="show" id="Ghi-zD-rDq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ny-UC-Pik">
-                                <rect key="frame" x="16" y="519" width="288" height="41"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="FollicleAndTube" translatesAutoresizingMaskIntoConstraints="NO" id="XIA-xU-eD4">
+                                <rect key="frame" x="-1" y="45" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="egg" translatesAutoresizingMaskIntoConstraints="NO" id="KBT-s8-qS2">
+                                <rect key="frame" x="175" y="390" width="35" height="41"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1U-lu-AC9">
+                                <rect key="frame" x="24" y="103" width="271" height="279"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onPress:" destination="PVA-nZ-kNU" eventType="touchUpInside" id="oml-yO-EBX"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="vagmigo" translatesAutoresizingMaskIntoConstraints="NO" id="Oeb-Y0-ATd">
+                                <rect key="frame" x="172" y="353" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ny-UC-Pik">
+                                <rect key="frame" x="24" y="103" width="271" height="279"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43024512339999998" green="0.62246844680000002" blue="0.92755681280000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">A high level of LH causes ovulation to begin. An egg is released from the ovaries. With the high levels of LH, the ovarian follicle eventually bursts and releases the egg. The egg then travels from the ovary, through the fallopian tube into the uterus in order to be fertilized.
+
+Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.97364124770000005" green="1" blue="0.97953264600000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="beforeButton" destination="V1U-lu-AC9" id="3WA-xs-reA"/>
+                        <outlet property="beforeLabel" destination="7Ny-UC-Pik" id="NEu-wF-rFj"/>
+                        <outlet property="eggImage" destination="KBT-s8-qS2" id="R0P-8o-o9W"/>
+                        <outlet property="vagmigoImage" destination="Oeb-Y0-ATd" id="22E-aa-ynb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cOW-lG-gpT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -983,15 +1012,18 @@ Looks like Vagmigo is gonna ride the flow out with it.
     </scenes>
     <resources>
         <image name="BackgroundAlone copy" width="640" height="1136"/>
+        <image name="FollicleAndTube" width="320" height="568"/>
         <image name="background" width="640" height="1136"/>
         <image name="bloob" width="320" height="568"/>
         <image name="bloobSad" width="320" height="568"/>
         <image name="corpus luteum" width="250" height="251"/>
+        <image name="egg" width="35" height="41"/>
         <image name="folliclenew" width="150" height="204"/>
         <image name="hormone3" width="16" height="16"/>
         <image name="hormone4" width="16" height="16"/>
         <image name="hormone5" width="16" height="16"/>
         <image name="pink" width="640" height="1136"/>
         <image name="uterus" width="320" height="568"/>
+        <image name="vagmigo" width="74" height="74"/>
     </resources>
 </document>
