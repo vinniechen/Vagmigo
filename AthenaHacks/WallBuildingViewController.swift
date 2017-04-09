@@ -11,6 +11,8 @@ import UIKit
 class WallBuildingViewController: UIViewController {
     var totalCount: Int = 0
     
+    @IBOutlet weak var popUpButton: UIButton!
+    @IBOutlet weak var popUpLabel: UILabel!
     @IBOutlet weak var button1: UIButton!
     
     @IBOutlet weak var button2: UIButton!
@@ -34,7 +36,8 @@ class WallBuildingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        popUpButton.isHidden = true
+        popUpLabel.isHidden = true
         button1.backgroundColor = UIColor.clear
         button2.backgroundColor = UIColor.clear
         button3.backgroundColor = UIColor.clear
@@ -152,10 +155,37 @@ class WallBuildingViewController: UIViewController {
     }
     
     
-    func isDone() -> Bool {
-        return (totalCount == 18)
-        print("done!")
+    func isDone() {
+        if (totalCount == 17) {
+            self.view.bringSubview(toFront: popUpLabel)
+            self.view.bringSubview(toFront: popUpButton)
+            popUpLabel.isHidden = false
+            popUpButton.isHidden = false
+            print("done!")
+        }
+        else {
+            totalCount += 1
+            randomHormoneP()
+        }
+        
     }
+    
+    func randomHormoneP() {
+        let hormone = UIImage(named: "hormone2")
+        let imageView = UIImageView(image: hormone)
+        
+        let randX = arc4random_uniform(400)
+        let randY = arc4random_uniform(200)
+        
+        
+        imageView.frame = CGRect(x: Double(randX), y: Double(randY)+150, width: 15, height: 15)
+        view.addSubview(imageView)
+
+    }
+    
+    @IBAction func onPress(_ sender: Any) {
+    }
+    
 
     /*
     // MARK: - Navigation
