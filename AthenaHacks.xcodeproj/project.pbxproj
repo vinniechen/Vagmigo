@@ -15,6 +15,11 @@
 		33542AD41E9921BD0086A729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33542AD21E9921BD0086A729 /* Main.storyboard */; };
 		33542AD61E9921BD0086A729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33542AD51E9921BD0086A729 /* Assets.xcassets */; };
 		33542AD91E9921BD0086A729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33542AD71E9921BD0086A729 /* LaunchScreen.storyboard */; };
+		B7B8B9751E99EBF400E24165 /* WallBuildingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8B9741E99EBF400E24165 /* WallBuildingViewController.swift */; };
+		B7B8B9771E99EC2000E24165 /* EmotionsExplanationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8B9761E99EC2000E24165 /* EmotionsExplanationViewController.swift */; };
+		B7B8B9791E99EC9600E24165 /* WallBreakdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8B9781E99EC9600E24165 /* WallBreakdownViewController.swift */; };
+		B7B8B97B1E99ECCB00E24165 /* CatchingFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8B97A1E99ECCB00E24165 /* CatchingFlowViewController.swift */; };
+		B7B8B97D1E99ED1B00E24165 /* EndScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8B97C1E99ED1B00E24165 /* EndScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		33542AD51E9921BD0086A729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33542AD81E9921BD0086A729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33542ADA1E9921BD0086A729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B8B9741E99EBF400E24165 /* WallBuildingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallBuildingViewController.swift; sourceTree = "<group>"; };
+		B7B8B9761E99EC2000E24165 /* EmotionsExplanationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsExplanationViewController.swift; sourceTree = "<group>"; };
+		B7B8B9781E99EC9600E24165 /* WallBreakdownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallBreakdownViewController.swift; sourceTree = "<group>"; };
+		B7B8B97A1E99ECCB00E24165 /* CatchingFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatchingFlowViewController.swift; sourceTree = "<group>"; };
+		B7B8B97C1E99ED1B00E24165 /* EndScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +58,11 @@
 				334F4ED21E99ADB200BED90B /* UterusViewController.swift */,
 				334F4ED41E99ADC800BED90B /* OvaryViewController.swift */,
 				334F4ED61E99ADD700BED90B /* OvulationViewController.swift */,
+				B7B8B9741E99EBF400E24165 /* WallBuildingViewController.swift */,
+				B7B8B9761E99EC2000E24165 /* EmotionsExplanationViewController.swift */,
+				B7B8B9781E99EC9600E24165 /* WallBreakdownViewController.swift */,
+				B7B8B97A1E99ECCB00E24165 /* CatchingFlowViewController.swift */,
+				B7B8B97C1E99ED1B00E24165 /* EndScreenViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -153,11 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B8B97D1E99ED1B00E24165 /* EndScreenViewController.swift in Sources */,
+				B7B8B9791E99EC9600E24165 /* WallBreakdownViewController.swift in Sources */,
 				334F4ED51E99ADC800BED90B /* OvaryViewController.swift in Sources */,
 				33542ACF1E9921BD0086A729 /* AppDelegate.swift in Sources */,
 				334F4ED71E99ADD700BED90B /* OvulationViewController.swift in Sources */,
 				334F4ED31E99ADB200BED90B /* UterusViewController.swift in Sources */,
+				B7B8B97B1E99ECCB00E24165 /* CatchingFlowViewController.swift in Sources */,
+				B7B8B9751E99EBF400E24165 /* WallBuildingViewController.swift in Sources */,
 				334F4ED11E99ADA600BED90B /* StartViewController.swift in Sources */,
+				B7B8B9771E99EC2000E24165 /* EmotionsExplanationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
