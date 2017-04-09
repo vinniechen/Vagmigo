@@ -29,7 +29,7 @@ class OvaryViewController: UIViewController {
     }
     
     func randomHormoneDrop() {
-        let imageName = "hormone.png"
+        let imageName = "hormone1"
         let hormone = UIImage(named: imageName)
    
         while (score < 10) {
@@ -38,6 +38,7 @@ class OvaryViewController: UIViewController {
             
             imageView.frame = CGRect(x: 50, y: 200, width: 15, height: 15)
             view.addSubview(imageView)
+            score += 1
             
         }
     }
