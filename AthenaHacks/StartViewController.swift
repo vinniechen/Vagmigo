@@ -12,6 +12,8 @@ class StartViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true
+        
 
         // Do any additional setup after loading the view.
     }
@@ -22,7 +24,7 @@ class StartViewController: UIViewController {
     }
     
     @IBAction func onStart(_ sender: Any) {
-        self.performSegue(withIdentifier: "startSegue", sender: nil)
+        //self.performSegue(withIdentifier: "startSegue", sender: nil)
 
     }
 

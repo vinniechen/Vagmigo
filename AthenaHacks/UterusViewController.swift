@@ -16,8 +16,7 @@ class UterusViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func onNext(_ sender: Any) {
-        self.performSegue(withIdentifier:
-            "uterusOvarySegue", sender: nil)
+        //self.performSegue(withIdentifier: "uterusOvarySegue", sender: nil)
     }
 
     override func didReceiveMemoryWarning() {
