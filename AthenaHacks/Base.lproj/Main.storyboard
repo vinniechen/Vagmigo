@@ -236,6 +236,186 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="560"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Pq-UF-WqG">
+                                <rect key="frame" x="247" y="423" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton17:" destination="xtl-N3-8vV" eventType="touchUpInside" id="AM9-WS-pva"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oh6-4x-3IW">
+                                <rect key="frame" x="159" y="395" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton16:" destination="xtl-N3-8vV" eventType="touchUpInside" id="bHZ-ys-f6y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJI-fE-pZ4">
+                                <rect key="frame" x="97" y="395" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton15:" destination="xtl-N3-8vV" eventType="touchUpInside" id="Goj-mj-Rrd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbY-v6-pFF">
+                                <rect key="frame" x="36" y="395" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton14:" destination="xtl-N3-8vV" eventType="touchUpInside" id="c9t-rw-H5G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jd-X1-KWI">
+                                <rect key="frame" x="184" y="423" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton13:" destination="xtl-N3-8vV" eventType="touchUpInside" id="Fjs-Dj-D3x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgt-ev-fe1">
+                                <rect key="frame" x="122" y="423" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton12:" destination="xtl-N3-8vV" eventType="touchUpInside" id="rqb-nE-5qW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HNU-gM-ed6">
+                                <rect key="frame" x="60" y="423" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton11:" destination="xtl-N3-8vV" eventType="touchUpInside" id="ce8-aS-ROc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uuh-SG-Uch">
+                                <rect key="frame" x="0.0" y="423" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton10:" destination="xtl-N3-8vV" eventType="touchUpInside" id="h1c-oj-H1k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2B6-hT-1nv">
+                                <rect key="frame" x="221" y="452" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton9:" destination="xtl-N3-8vV" eventType="touchUpInside" id="brk-lx-pVJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sqs-KO-Gjn">
+                                <rect key="frame" x="159" y="452" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton8:" destination="xtl-N3-8vV" eventType="touchUpInside" id="TAN-2v-dKl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTS-aU-RIf">
+                                <rect key="frame" x="97" y="452" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton7:" destination="xtl-N3-8vV" eventType="touchUpInside" id="eAU-Yl-js4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guq-rc-a3W">
+                                <rect key="frame" x="36" y="452" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton6:" destination="xtl-N3-8vV" eventType="touchUpInside" id="q95-pi-16w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZO-29-7pF">
+                                <rect key="frame" x="247" y="481" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton5:" destination="xtl-N3-8vV" eventType="touchUpInside" id="bz2-4b-JUU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xua-LZ-VR7">
+                                <rect key="frame" x="184" y="481" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton4:" destination="xtl-N3-8vV" eventType="touchUpInside" id="UL6-8K-NMl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTt-Pv-ge4">
+                                <rect key="frame" x="122" y="481" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton3:" destination="xtl-N3-8vV" eventType="touchUpInside" id="GIG-eN-I7w"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RTM-Ly-oJJ">
                                 <rect key="frame" x="0.0" y="510" width="320" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -247,6 +427,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta9-4H-5YF">
+                                <rect key="frame" x="272" y="143" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="ZQU-BN-xnb" kind="show" id="wWO-cB-PlF"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aB8-Jg-RWR">
                                 <rect key="frame" x="0.0" y="481" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -259,12 +447,28 @@
                                     <action selector="onButton1:" destination="xtl-N3-8vV" eventType="touchUpInside" id="ZuD-Ii-PYg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta9-4H-5YF">
-                                <rect key="frame" x="272" y="143" width="32" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVQ-s3-dnb">
+                                <rect key="frame" x="60" y="481" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <segue destination="ZQU-BN-xnb" kind="show" id="wWO-cB-PlF"/>
+                                    <action selector="onButton2:" destination="xtl-N3-8vV" eventType="touchUpInside" id="I6n-pe-aSc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2A-Ei-0PD">
+                                <rect key="frame" x="221" y="395" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton18:" destination="xtl-N3-8vV" eventType="touchUpInside" id="55y-cY-m0h"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -272,6 +476,23 @@
                     </view>
                     <connections>
                         <outlet property="button1" destination="aB8-Jg-RWR" id="Izw-HT-dJf"/>
+                        <outlet property="button10" destination="Uuh-SG-Uch" id="yBR-eo-LmP"/>
+                        <outlet property="button11" destination="HNU-gM-ed6" id="zxM-hR-uuW"/>
+                        <outlet property="button12" destination="zgt-ev-fe1" id="8pl-tv-CCI"/>
+                        <outlet property="button13" destination="4jd-X1-KWI" id="mT0-RX-Y31"/>
+                        <outlet property="button14" destination="fbY-v6-pFF" id="n1F-53-mhH"/>
+                        <outlet property="button15" destination="GJI-fE-pZ4" id="Jyi-7n-Aap"/>
+                        <outlet property="button16" destination="oh6-4x-3IW" id="LUA-GO-6ju"/>
+                        <outlet property="button17" destination="3Pq-UF-WqG" id="KIZ-55-HpU"/>
+                        <outlet property="button18" destination="s2A-Ei-0PD" id="0rS-dg-9tI"/>
+                        <outlet property="button2" destination="cVQ-s3-dnb" id="v0N-GN-DL1"/>
+                        <outlet property="button3" destination="zTt-Pv-ge4" id="0rz-2b-FCK"/>
+                        <outlet property="button4" destination="xua-LZ-VR7" id="7kQ-jI-z8z"/>
+                        <outlet property="button5" destination="rZO-29-7pF" id="xFC-xI-jLH"/>
+                        <outlet property="button6" destination="guq-rc-a3W" id="sbA-oR-III"/>
+                        <outlet property="button7" destination="aTS-aU-RIf" id="0HU-WP-4Av"/>
+                        <outlet property="button8" destination="Sqs-KO-Gjn" id="Fuf-YQ-P8Y"/>
+                        <outlet property="button9" destination="2B6-hT-1nv" id="fEt-Xt-fac"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ugv-Yx-lWH" userLabel="First Responder" sceneMemberID="firstResponder"/>

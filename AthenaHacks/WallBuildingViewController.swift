@@ -13,10 +13,46 @@ class WallBuildingViewController: UIViewController {
     
     @IBOutlet weak var button1: UIButton!
     
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
+    @IBOutlet weak var button4: UIButton!
+    @IBOutlet weak var button5: UIButton!
+    @IBOutlet weak var button6: UIButton!
+    @IBOutlet weak var button7: UIButton!
+    @IBOutlet weak var button8: UIButton!
+    @IBOutlet weak var button9: UIButton!
+    @IBOutlet weak var button10: UIButton!
+    @IBOutlet weak var button11: UIButton!
+    @IBOutlet weak var button12: UIButton!
+    @IBOutlet weak var button13: UIButton!
+    @IBOutlet weak var button14: UIButton!
+    @IBOutlet weak var button15: UIButton!
+    @IBOutlet weak var button16: UIButton!
+    @IBOutlet weak var button17: UIButton!
+    @IBOutlet weak var button18: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         button1.backgroundColor = UIColor.clear
+        button2.backgroundColor = UIColor.clear
+        button3.backgroundColor = UIColor.clear
+        button4.backgroundColor = UIColor.clear
+        button5.backgroundColor = UIColor.clear
+        button6.backgroundColor = UIColor.clear
+        button7.backgroundColor = UIColor.clear
+        button8.backgroundColor = UIColor.clear
+        button9.backgroundColor = UIColor.clear
+        button10.backgroundColor = UIColor.clear
+        button11.backgroundColor = UIColor.clear
+        button12.backgroundColor = UIColor.clear
+        button13.backgroundColor = UIColor.clear
+        button14.backgroundColor = UIColor.clear
+        button15.backgroundColor = UIColor.clear
+        button16.backgroundColor = UIColor.clear
+        button17.backgroundColor = UIColor.clear
+        button18.backgroundColor = UIColor.clear
         // Do any additional setup after loading the view.
     }
 
@@ -30,10 +66,94 @@ class WallBuildingViewController: UIViewController {
         isDone()
     }
     
+    @IBAction func onButton2(_ sender: Any) {
+        button2.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton3(_ sender: Any) {
+        button3.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton4(_ sender: Any) {
+        button4.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton5(_ sender: Any) {
+        button5.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton6(_ sender: Any) {
+        button6.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton7(_ sender: Any) {
+        button7.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton8(_ sender: Any) {
+        button8.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton9(_ sender: Any) {
+        button9.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton10(_ sender: Any){
+        button10.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton11(_ sender: Any){
+        button11.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton12(_ sender: Any){
+        button12.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton13(_ sender: Any){
+        button13.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton14(_ sender: Any){
+        button14.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton15(_ sender: Any){
+        button15.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton16(_ sender: Any){
+        button16.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton17(_ sender: Any){
+        button17.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    @IBAction func onButton18(_ sender: Any){
+        button18.backgroundColor = UIColor.red
+        isDone()
+    }
     
     
     func isDone() -> Bool {
-        return (totalCount == 20)
+        return (totalCount == 18)
         print("done!")
     }
 
