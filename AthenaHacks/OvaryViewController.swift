@@ -12,6 +12,7 @@ class OvaryViewController: UIViewController {
     var score: Int = 0
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,11 +34,15 @@ class OvaryViewController: UIViewController {
         
         let hormone = UIImage(named: "hormone")
         
-        while (score < 10) {
+        while (score < 20) {
             
             let imageView = UIImageView(image: hormone)
             
-            imageView.frame = CGRect(x: 50, y: 200, width: 15, height: 15)
+            let randX = arc4random_uniform(400)
+            let randY = arc4random_uniform(200)
+            
+            
+            imageView.frame = CGRect(x: Double(randX), y: Double(randY)+20, width: 15, height: 15)
             view.addSubview(imageView)
             
             score += 1

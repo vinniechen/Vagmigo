@@ -161,7 +161,7 @@
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="folliclenew copy" translatesAutoresizingMaskIntoConstraints="NO" id="Ypl-ux-bFW">
-                                <rect key="frame" x="39" y="218" width="300" height="409"/>
+                                <rect key="frame" x="67" y="231" width="300" height="409"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -247,8 +247,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aB8-Jg-RWR">
+                                <rect key="frame" x="0.0" y="481" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791666666661" green="0.062297633805052932" blue="0.096614472706142235" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.72369791666666661" green="0.062297633805052932" blue="0.096614472706142235" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.72369791666666661" green="0.062297633805052932" blue="0.096614472706142235" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton1:" destination="xtl-N3-8vV" eventType="touchUpInside" id="ZuD-Ii-PYg"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta9-4H-5YF">
-                                <rect key="frame" x="272" y="472" width="32" height="30"/>
+                                <rect key="frame" x="272" y="143" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
@@ -258,6 +270,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="button1" destination="aB8-Jg-RWR" id="Izw-HT-dJf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ugv-Yx-lWH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

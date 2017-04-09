@@ -9,10 +9,14 @@
 import UIKit
 
 class WallBuildingViewController: UIViewController {
-
+    var totalCount: Int = 0
+    
+    @IBOutlet weak var button1: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        button1.backgroundColor = UIColor.clear
         // Do any additional setup after loading the view.
     }
 
@@ -21,6 +25,17 @@ class WallBuildingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onButton1(_ sender: Any) {
+        button1.backgroundColor = UIColor.red
+        isDone()
+    }
+    
+    
+    
+    func isDone() -> Bool {
+        return (totalCount == 20)
+        print("done!")
+    }
 
     /*
     // MARK: - Navigation
