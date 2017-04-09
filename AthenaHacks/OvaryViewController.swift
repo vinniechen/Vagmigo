@@ -209,10 +209,10 @@ class OvaryViewController: UIViewController {
         else if (score < 7) {
             gaugeLabel.text = "You're doing your score some horm(one)"
         }
-        else if (score > 7 && score < 16) {
+        else if (score > 7 && score < 13) {
             gaugeLabel.text = "You're doing hormoneously well!"
         }
-        else if (score == 16) {
+        else if (score > 13 && score <= 16) {
             gaugeLabel.text = "You got all the hormones!"
             return true;
         }
@@ -220,7 +220,7 @@ class OvaryViewController: UIViewController {
             gaugeLabel.text = "You're doing hormoneously well!"
         }
         else if (score > 19) {
-            gaugeLabel.text = "You're doing your score some horm(one)"
+            gaugeLabel.text = "That's horrendously too much!"
         }
         return false;
     }

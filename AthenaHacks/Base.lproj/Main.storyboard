@@ -38,11 +38,11 @@
                                     <segue destination="8nf-B4-KUe" kind="show" identifier="startSegue" id="faa-yc-L2A"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Going with the Flow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JkI-HD-YWw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vagmigo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JkI-HD-YWw">
                                 <rect key="frame" x="16" y="49" width="288" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abena Bonsu, Vinnie Chen, and Vylana Trang" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jv8-fs-EyP">
@@ -383,18 +383,10 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ovulation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQ5-ra-iC2">
                                 <rect key="frame" x="16" y="20" width="288" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="textColor" red="0.020439891549999999" green="0.19774402569999999" blue="0.53207131409999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvx-Vy-jZl">
-                                <rect key="frame" x="265" y="472" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <segue destination="xtl-N3-8vV" kind="show" id="Ghi-zD-rDq"/>
-                                </connections>
-                            </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="FollicleAndTube" translatesAutoresizingMaskIntoConstraints="NO" id="XIA-xU-eD4">
                                 <rect key="frame" x="-1" y="45" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -425,6 +417,14 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 <color key="textColor" red="0.97364124770000005" green="1" blue="0.97953264600000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvx-Vy-jZl">
+                                <rect key="frame" x="37" y="518" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="xtl-N3-8vV" kind="show" id="Ghi-zD-rDq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -817,14 +817,6 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQU-a7-RYr">
-                                <rect key="frame" x="271" y="472" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <segue destination="zee-Pu-51g" kind="show" id="dCN-tW-sZf"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap the bricks on the wall to make them fall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPq-fZ-uTW">
                                 <rect key="frame" x="0.0" y="18" width="320" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -901,10 +893,17 @@ Looks like Vagmigo is gonna ride the flow out with it.
                                     <action selector="onPresentButton:" destination="Ogt-3N-Xjy" eventType="touchUpInside" id="FXR-kp-46r"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bloob" translatesAutoresizingMaskIntoConstraints="NO" id="Hld-6V-8ri">
-                                <rect key="frame" x="-25" y="347" width="320" height="231"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQU-a7-RYr">
+                                <rect key="frame" x="34" y="478" width="252" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.56055867619999999" blue="0.90671977410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="You've finished your cycle. It's ovary!">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fsL-ZI-5SC" kind="show" id="T3D-Ta-zm6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -913,6 +912,7 @@ Looks like Vagmigo is gonna ride the flow out with it.
                         <outlet property="brick2" destination="PWb-g4-Pp7" id="70g-WA-64e"/>
                         <outlet property="brick3" destination="vAj-hI-dtn" id="S5C-wI-ghm"/>
                         <outlet property="brick4" destination="awh-BF-vFG" id="Mh6-2O-Yaa"/>
+                        <outlet property="finishButton" destination="XQU-a7-RYr" id="yHc-mT-zP9"/>
                         <outlet property="presentButton" destination="esF-ur-opU" id="tjJ-mn-ye3"/>
                         <outlet property="presentLabel" destination="Kkp-ng-V64" id="twd-7g-M0q"/>
                     </connections>
@@ -920,34 +920,6 @@ Looks like Vagmigo is gonna ride the flow out with it.
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HwS-yC-giQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5662.5" y="21.12676056338028"/>
-        </scene>
-        <!--Catching Flow View Controller-->
-        <scene sceneID="rIN-oK-1R8">
-            <objects>
-                <viewController id="zee-Pu-51g" customClass="CatchingFlowViewController" customModule="AthenaHacks" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="k1f-FS-LzX"/>
-                        <viewControllerLayoutGuide type="bottom" id="h7B-lP-R3I"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="nSY-LZ-j52">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfs-7G-QXW">
-                                <rect key="frame" x="266" y="474" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <segue destination="fsL-ZI-5SC" kind="show" id="2GQ-PP-Nlj"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="G2n-Vj-V2c" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6409" y="34"/>
         </scene>
         <!--End Screen View Controller-->
         <scene sceneID="SeG-6y-gHe">
@@ -989,7 +961,7 @@ Looks like Vagmigo is gonna ride the flow out with it.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Msf-BO-hIe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7224" y="33"/>
+            <point key="canvasLocation" x="6420" y="21"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9Mm-Gg-HDQ">
