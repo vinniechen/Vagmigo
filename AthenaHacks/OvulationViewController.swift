@@ -14,9 +14,13 @@ class OvulationViewController: UIViewController {
     @IBOutlet weak var beforeButton: UIButton!
     @IBOutlet weak var beforeLabel: UILabel!
     @IBOutlet weak var eggImage: UIImageView!
+    @IBOutlet weak var continueButton: UIButton!
+    @IBOutlet weak var infoLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        continueButton.isHidden = true
+        
 
         // Do any additional setup after loading the view.
     }
@@ -25,12 +29,13 @@ class OvulationViewController: UIViewController {
         print("press")
         beforeButton.isHidden = true
         beforeLabel.isHidden = true
-        moveEggLeft()
-        moveEggUp()
-        
+        continueButton.isHidden = false
+        infoLabel.isHidden = true
+        moveEgg()
     }
     
-    func moveEggLeft() {
+    
+    func moveEgg() {
         UIView.animate(withDuration: 0.7) {
             self.eggImage.center.x -= 80
             self.vagmigoImage.center.x -= 80
@@ -39,16 +44,7 @@ class OvulationViewController: UIViewController {
         }
     }
     
-    func moveEggUp() {
-        UIView.animate(withDuration: 0.7) {
-            self.eggImage.center.y -= 200
-            self.vagmigoImage.center.y -= 200
-            
-            self.eggImage.center.x += 100
-            self.vagmigoImage.center.x += 100
-        }
-    }
-    override func didReceiveMemoryWarning() {
+       override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

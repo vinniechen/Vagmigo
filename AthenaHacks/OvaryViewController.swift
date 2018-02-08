@@ -25,6 +25,7 @@ class OvaryViewController: UIViewController {
     @IBOutlet weak var blue2: UIImageView!
     @IBOutlet weak var blue3: UIImageView!
     
+    @IBOutlet weak var infoLabel: UILabel!
     @IBOutlet weak var presentLabel: UILabel!
     @IBOutlet weak var presentbutton: UIButton!
     @IBOutlet weak var finishButton: UIButton!
@@ -43,6 +44,7 @@ class OvaryViewController: UIViewController {
         blue2.isHidden = true
         blue1.isHidden = true
         finishButton.isHidden = true
+        gaugeLabel.isHidden = true
         
         
         //randomHormoneDrop()
@@ -57,6 +59,8 @@ class OvaryViewController: UIViewController {
     @IBAction func onPresent(_ sender: Any) {
         presentLabel.isHidden = true
         presentbutton.isHidden = true
+        infoLabel.isHidden = true
+        gaugeLabel.isHidden = false
     }
     @IBAction func onPurple1(_ sender: Any) {
         

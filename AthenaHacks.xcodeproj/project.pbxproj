@@ -128,6 +128,7 @@
 				TargetAttributes = {
 					33542ACA1E9921BD0086A729 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Y2ZU24E3BN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -298,9 +299,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2ZU24E3BN;
 				INFOPLIST_FILE = AthenaHacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Vinnie.AthenaHacks;
+				PRODUCT_BUNDLE_IDENTIFIER = Vinnie.AthenaHacks1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -310,9 +312,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2ZU24E3BN;
 				INFOPLIST_FILE = AthenaHacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Vinnie.AthenaHacks;
+				PRODUCT_BUNDLE_IDENTIFIER = Vinnie.AthenaHacks1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

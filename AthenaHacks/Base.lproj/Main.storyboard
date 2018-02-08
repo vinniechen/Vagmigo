@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XMY-Y8-KLs">
-    <device id="retina4_0" orientation="portrait">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XMY-Y8-KLs">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Start View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -18,15 +23,15 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="pink" translatesAutoresizingMaskIntoConstraints="NO" id="u6h-QN-qxH">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fol-Ir-53B">
-                                <rect key="frame" x="16" y="467" width="288" height="64"/>
+                                <rect key="frame" x="43" y="473" width="288" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.43024512339999998" green="0.62246844680000002" blue="0.92755681280000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
@@ -39,30 +44,23 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vagmigo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JkI-HD-YWw">
-                                <rect key="frame" x="16" y="49" width="288" height="55"/>
+                                <rect key="frame" x="43" y="49" width="288" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abena Bonsu, Vinnie Chen, and Vylana Trang" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jv8-fs-EyP">
-                                <rect key="frame" x="16" y="540" width="288" height="19"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Say hello to Vagmigo! It's here to help us on our journey through the menstrual cycle!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ds5-1y-2Dc">
+                                <rect key="frame" x="43" y="112" width="288" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.020439891549999999" green="0.19774402569999999" blue="0.53207131409999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bloob" translatesAutoresizingMaskIntoConstraints="NO" id="t0x-Ni-gL0">
-                                <rect key="frame" x="-25" y="240" width="320" height="208"/>
+                                <rect key="frame" x="39" y="265" width="245" height="208"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Say hello to Vagmigo! It's here to help us on our journey through the menstrual cycle!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ds5-1y-2Dc">
-                                <rect key="frame" x="16" y="112" width="288" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -71,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1029.375" y="36.971830985915496"/>
+            <point key="canvasLocation" x="1028" y="36.431784107946029"/>
         </scene>
         <!--Uterus View Controller-->
         <scene sceneID="DYg-08-U7o">
@@ -82,68 +80,75 @@
                         <viewControllerLayoutGuide type="bottom" id="2Zg-49-ObA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4iV-Pf-5mz">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="BackgroundAlone copy" translatesAutoresizingMaskIntoConstraints="NO" id="0Cy-bD-xHk">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to a female's reproductive system! There are 4 main parts to the system." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKi-D9-i9X">
-                                <rect key="frame" x="16" y="28" width="288" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hv-bC-6lg">
-                                <rect key="frame" x="238" y="461" width="66" height="41"/>
+                                <rect key="frame" x="293" y="606" width="66" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <color key="backgroundColor" red="0.92755681280000002" green="0.5912264652" blue="0.83308650230000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="onNext:" destination="8nf-B4-KUe" eventType="touchUpInside" id="PSQ-vL-Glp"/>
                                     <segue destination="52t-BX-KK2" kind="show" identifier="uterusOvarySegue" id="inM-xd-H19"/>
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="uterus" translatesAutoresizingMaskIntoConstraints="NO" id="dyD-l8-wCf">
-                                <rect key="frame" x="-12" y="102" width="345" height="305"/>
+                                <rect key="frame" x="24" y="154" width="345" height="305"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Uterus" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmE-CJ-fxe">
-                                <rect key="frame" x="139" y="210" width="55" height="21"/>
+                                <rect key="frame" x="170" y="225" width="55" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ovary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6A-De-Q4k">
-                                <rect key="frame" x="55" y="246" width="46" height="21"/>
+                                <rect key="frame" x="80" y="340" width="46" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We'll begin our journey in the ovary!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1w-Ky-OaT">
-                                <rect key="frame" x="16" y="404" width="288" height="49"/>
+                                <rect key="frame" x="48" y="549" width="288" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vagina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROq-iM-vLO">
-                                <rect key="frame" x="134" y="366" width="52" height="21"/>
+                                <rect key="frame" x="163" y="417" width="52" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fallopian Tube" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8e-DC-YzS">
-                                <rect key="frame" x="16" y="156" width="110" height="21"/>
+                                <rect key="frame" x="16" y="216" width="110" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the female reproductive system! There are 4 main parts to the system." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKi-D9-i9X">
+                                <rect key="frame" x="43" y="37" width="288" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
+                                <color key="textColor" red="0.020439891549999999" green="0.19774402569999999" blue="0.53207131409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="vagmigo" translatesAutoresizingMaskIntoConstraints="NO" id="tCX-QH-zST">
+                                <rect key="frame" x="257" y="417" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -152,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IYJ-uz-9j6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1788.75" y="34.859154929577464"/>
+            <point key="canvasLocation" x="1788" y="34.632683658170919"/>
         </scene>
         <!--Ovary View Controller-->
         <scene sceneID="bsE-5E-Q3k">
@@ -163,15 +168,15 @@
                         <viewControllerLayoutGuide type="bottom" id="pmn-Gg-Lgx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ph6-i5-V5n">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="3aX-tO-NbB">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="376" height="668"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ovary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyG-oz-pol">
-                                <rect key="frame" x="16" y="20" width="288" height="29"/>
+                                <rect key="frame" x="43" y="20" width="288" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
                                 <color key="textColor" red="0.020439891553875877" green="0.1977440257125207" blue="0.53207131410256414" alpha="1" colorSpace="calibratedRGB"/>
@@ -187,10 +192,6 @@
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone4" translatesAutoresizingMaskIntoConstraints="NO" id="GmJ-ao-Az8">
                                 <rect key="frame" x="197" y="114" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone3" translatesAutoresizingMaskIntoConstraints="NO" id="2VL-k9-Uvn">
-                                <rect key="frame" x="113" y="125" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone5" translatesAutoresizingMaskIntoConstraints="NO" id="I9s-Jn-WwU">
@@ -210,7 +211,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone5" translatesAutoresizingMaskIntoConstraints="NO" id="Lk5-wb-od3">
-                                <rect key="frame" x="272" y="96" width="32" height="32"/>
+                                <rect key="frame" x="305" y="520" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone3" translatesAutoresizingMaskIntoConstraints="NO" id="wh2-DD-0pt">
@@ -226,7 +227,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing Selected!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pi5-d6-coT">
-                                <rect key="frame" x="16" y="57" width="288" height="30"/>
+                                <rect key="frame" x="43" y="57" width="288" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -240,7 +241,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9V-Z4-bpy">
-                                <rect key="frame" x="258" y="88" width="54" height="59"/>
+                                <rect key="frame" x="294" y="507" width="54" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="onPurple2:" destination="52t-BX-KK2" eventType="touchUpInside" id="lQZ-px-LTa"/>
@@ -282,14 +283,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViQ-GQ-ZWF">
-                                <rect key="frame" x="100" y="106" width="59" height="67"/>
+                                <rect key="frame" x="86" y="576" width="59" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="onBlue1:" destination="52t-BX-KK2" eventType="touchUpInside" id="iHh-zL-2oe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARt-cD-QH2">
-                                <rect key="frame" x="23" y="337" width="50" height="49"/>
+                                <rect key="frame" x="15" y="337" width="50" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="onBlue2:" destination="52t-BX-KK2" eventType="touchUpInside" id="jwn-mO-0zc"/>
@@ -303,16 +304,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRi-Wu-yj6">
-                                <rect key="frame" x="24" y="180" width="272" height="208"/>
+                                <rect key="frame" x="53" y="429" width="272" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.43024512343191657" green="0.62246844679861735" blue="0.92755681280000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">In the ovary, there are ovarian follicles that each contain an egg and cells. Hormones from the brain such as FSH and LH help to make the ovarian follicle grow. Help Vagmigo find the right combination of hormones that are hidden around the ovarian follicle by tapping and untapping. Tap to Begin.</string>
+                                <string key="text">Help Vagmigo find the right combination of hormones that are hidden around the ovarian follicle by tapping and untapping. Tap to Begin.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukc-a1-zEa">
-                                <rect key="frame" x="23" y="180" width="273" height="206"/>
+                                <rect key="frame" x="52" y="429" width="273" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <connections>
@@ -320,7 +321,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WLz-Ja-OsM">
-                                <rect key="frame" x="161" y="503" width="143" height="45"/>
+                                <rect key="frame" x="216" y="602" width="143" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.56055867617515864" blue="0.90671977411843463" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Nice job! Continue">
@@ -337,6 +338,19 @@
                                     <action selector="onPurple4:" destination="52t-BX-KK2" eventType="touchUpInside" id="djf-se-4ln"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUe-1V-8Ba">
+                                <rect key="frame" x="52" y="140" width="273" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43024512339999998" green="0.62246844680000002" blue="0.92755681280000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">In the ovary, there are ovarian follicles that each contain an egg and cells. Hormones from the brain such as FSH and LH help to make the ovarian follicle grow.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.97364124770000005" green="1" blue="0.97953264600000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hormone3" translatesAutoresizingMaskIntoConstraints="NO" id="2VL-k9-Uvn">
+                                <rect key="frame" x="101" y="593" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -352,6 +366,7 @@
                         <outlet property="green2" destination="YJ8-CB-sVI" id="NPG-9e-gRB"/>
                         <outlet property="green3" destination="hix-By-bgp" id="bqi-V9-AqE"/>
                         <outlet property="green4" destination="Nnl-VE-aqa" id="bGO-h0-wGL"/>
+                        <outlet property="infoLabel" destination="PUe-1V-8Ba" id="muW-Yo-NUG"/>
                         <outlet property="presentLabel" destination="rRi-Wu-yj6" id="mrS-xI-VdG"/>
                         <outlet property="presentbutton" destination="ukc-a1-zEa" id="CHc-RG-FMy"/>
                         <outlet property="purple1" destination="g9e-kO-9bI" id="RhX-hu-IJs"/>
@@ -362,7 +377,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SHM-Wh-BZu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2559.375" y="33.802816901408448"/>
+            <point key="canvasLocation" x="2559.1999999999998" y="33.733133433283363"/>
         </scene>
         <!--Ovulation View Controller-->
         <scene sceneID="TG1-eQ-meY">
@@ -373,54 +388,64 @@
                         <viewControllerLayoutGuide type="bottom" id="yTX-qu-5yG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NGG-AR-BUw">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="3Nj-2G-5Xq">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ovulation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQ5-ra-iC2">
-                                <rect key="frame" x="16" y="20" width="288" height="41"/>
+                                <rect key="frame" x="43" y="20" width="288" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <color key="textColor" red="0.020439891549999999" green="0.19774402569999999" blue="0.53207131409999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="FollicleAndTube" translatesAutoresizingMaskIntoConstraints="NO" id="XIA-xU-eD4">
-                                <rect key="frame" x="-1" y="45" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="2" width="439" height="665"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="egg" translatesAutoresizingMaskIntoConstraints="NO" id="KBT-s8-qS2">
-                                <rect key="frame" x="175" y="390" width="35" height="41"/>
+                                <rect key="frame" x="228" y="387" width="35" height="41"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="vagmigo" translatesAutoresizingMaskIntoConstraints="NO" id="Oeb-Y0-ATd">
+                                <rect key="frame" x="228" y="348" width="74" height="74"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1U-lu-AC9">
-                                <rect key="frame" x="24" y="103" width="271" height="279"/>
+                                <rect key="frame" x="24" y="101" width="326" height="365"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="onPress:" destination="PVA-nZ-kNU" eventType="touchUpInside" id="oml-yO-EBX"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="vagmigo" translatesAutoresizingMaskIntoConstraints="NO" id="Oeb-Y0-ATd">
-                                <rect key="frame" x="172" y="353" width="74" height="74"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ny-UC-Pik">
-                                <rect key="frame" x="24" y="103" width="271" height="279"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Luckily, Vagmigo can catch a ride with the egg to the uterus!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ny-UC-Pik">
+                                <rect key="frame" x="24" y="348" width="326" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.43024512339999998" green="0.62246844680000002" blue="0.92755681280000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">A high level of LH causes ovulation to begin. An egg is released from the ovaries. With the high levels of LH, the ovarian follicle eventually bursts and releases the egg. The egg then travels from the ovary, through the fallopian tube into the uterus in order to be fertilized.
-
-Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.97364124770000005" green="1" blue="0.97953264600000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvx-Vy-jZl">
-                                <rect key="frame" x="37" y="518" width="32" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGI-mG-pU8">
+                                <rect key="frame" x="24" y="101" width="326" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <color key="backgroundColor" red="0.43024512339999998" green="0.62246844680000002" blue="0.92755681280000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">A high level of LH causes ovulation to begin. An egg is released from the ovaries. With the high levels of LH, the ovarian follicle eventually bursts and releases the egg. The egg then travels from the ovary, through the fallopian tube into the uterus in order to be fertilized.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvx-Vy-jZl">
+                                <rect key="frame" x="278" y="613" width="81" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.56055867619999999" blue="0.90671977410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="xtl-N3-8vV" kind="show" id="Ghi-zD-rDq"/>
                                 </connections>
@@ -431,13 +456,15 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                     <connections>
                         <outlet property="beforeButton" destination="V1U-lu-AC9" id="3WA-xs-reA"/>
                         <outlet property="beforeLabel" destination="7Ny-UC-Pik" id="NEu-wF-rFj"/>
+                        <outlet property="continueButton" destination="Mvx-Vy-jZl" id="ZdD-tS-q0Y"/>
                         <outlet property="eggImage" destination="KBT-s8-qS2" id="R0P-8o-o9W"/>
+                        <outlet property="infoLabel" destination="jGI-mG-pU8" id="QlT-Qc-vke"/>
                         <outlet property="vagmigoImage" destination="Oeb-Y0-ATd" id="22E-aa-ynb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cOW-lG-gpT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3406.875" y="36.971830985915496"/>
+            <point key="canvasLocation" x="3405.5999999999999" y="36.431784107946029"/>
         </scene>
         <!--Wall Building View Controller-->
         <scene sceneID="O3e-Tp-aWR">
@@ -448,15 +475,15 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                         <viewControllerLayoutGuide type="bottom" id="ckH-BH-xd5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Rv-Yo-Fgz">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="BackgroundAlone copy" translatesAutoresizingMaskIntoConstraints="NO" id="E3V-8Y-xuq">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Pq-UF-WqG">
-                                <rect key="frame" x="256" y="423" width="63" height="30"/>
+                                <rect key="frame" x="287" y="522" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -468,7 +495,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oh6-4x-3IW">
-                                <rect key="frame" x="160" y="395" width="63" height="30"/>
+                                <rect key="frame" x="191" y="494" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -480,7 +507,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJI-fE-pZ4">
-                                <rect key="frame" x="96" y="395" width="63" height="30"/>
+                                <rect key="frame" x="127" y="494" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -492,7 +519,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbY-v6-pFF">
-                                <rect key="frame" x="32" y="395" width="63" height="30"/>
+                                <rect key="frame" x="63" y="494" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -504,7 +531,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jd-X1-KWI">
-                                <rect key="frame" x="192" y="423" width="63" height="30"/>
+                                <rect key="frame" x="223" y="522" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -516,7 +543,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgt-ev-fe1">
-                                <rect key="frame" x="128" y="423" width="63" height="30"/>
+                                <rect key="frame" x="159" y="522" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -528,7 +555,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HNU-gM-ed6">
-                                <rect key="frame" x="64" y="423" width="63" height="30"/>
+                                <rect key="frame" x="95" y="522" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -540,7 +567,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uuh-SG-Uch">
-                                <rect key="frame" x="0.0" y="423" width="63" height="30"/>
+                                <rect key="frame" x="32" y="522" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -552,7 +579,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2B6-hT-1nv">
-                                <rect key="frame" x="225" y="452" width="63" height="30"/>
+                                <rect key="frame" x="256" y="551" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -564,7 +591,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sqs-KO-Gjn">
-                                <rect key="frame" x="160" y="452" width="63" height="30"/>
+                                <rect key="frame" x="191" y="551" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -576,7 +603,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTS-aU-RIf">
-                                <rect key="frame" x="95" y="452" width="63" height="30"/>
+                                <rect key="frame" x="126" y="551" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -588,7 +615,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guq-rc-a3W">
-                                <rect key="frame" x="30" y="452" width="63" height="30"/>
+                                <rect key="frame" x="61" y="551" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -600,7 +627,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZO-29-7pF">
-                                <rect key="frame" x="256" y="481" width="63" height="30"/>
+                                <rect key="frame" x="287" y="580" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -612,7 +639,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xua-LZ-VR7">
-                                <rect key="frame" x="192" y="481" width="63" height="30"/>
+                                <rect key="frame" x="223" y="580" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -624,7 +651,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTt-Pv-ge4">
-                                <rect key="frame" x="128" y="481" width="63" height="30"/>
+                                <rect key="frame" x="159" y="580" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -635,26 +662,8 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                     <action selector="onButton3:" destination="xtl-N3-8vV" eventType="touchUpInside" id="GIG-eN-I7w"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta9-4H-5YF">
-                                <rect key="frame" x="10" y="316" width="300" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Tap to Continue">
-                                    <color key="titleColor" red="0.72369791666666661" green="0.04060500947774056" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="onPress:" destination="xtl-N3-8vV" eventType="touchUpInside" id="0tf-jm-QLx"/>
-                                    <segue destination="ZQU-BN-xnb" kind="show" id="wWO-cB-PlF"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwG-hd-YYa">
-                                <rect key="frame" x="-518" y="126" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aB8-Jg-RWR">
-                                <rect key="frame" x="0.0" y="481" width="63" height="30"/>
+                                <rect key="frame" x="32" y="580" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791666666661" green="0.062297633805052932" blue="0.096614472706142235" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791666666661" green="0.062297633805052932" blue="0.096614472706142235" alpha="1" colorSpace="calibratedRGB"/>
@@ -666,7 +675,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVQ-s3-dnb">
-                                <rect key="frame" x="64" y="481" width="63" height="30"/>
+                                <rect key="frame" x="95" y="580" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -678,7 +687,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2A-Ei-0PD">
-                                <rect key="frame" x="225" y="395" width="63" height="30"/>
+                                <rect key="frame" x="256" y="494" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -689,19 +698,42 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                     <action selector="onButton18:" destination="xtl-N3-8vV" eventType="touchUpInside" id="55y-cY-m0h"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwG-hd-YYa">
+                                <rect key="frame" x="-518" y="126" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="corpus luteum" translatesAutoresizingMaskIntoConstraints="NO" id="5dp-pd-y8B">
-                                <rect key="frame" x="36" y="-135" width="250" height="251"/>
+                                <rect key="frame" x="65" y="-104" width="250" height="251"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's help Vagmigo build up the wall by tapping where the bricks should go starting from the bottom!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikd-KQ-rWW">
-                                <rect key="frame" x="8" y="519" width="305" height="41"/>
+                                <rect key="frame" x="39" y="618" width="305" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Progesterone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfH-bO-vvt">
+                                <rect key="frame" x="10" y="192" width="108" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.040605009480000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Corpus Luteum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plA-tg-afU">
+                                <rect key="frame" x="244" y="28" width="106" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.72369791670000005" green="0.040605009480000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKD-i6-DYW">
-                                <rect key="frame" x="8" y="116" width="302" height="192"/>
+                                <rect key="frame" x="40" y="155" width="302" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">After the ovarian follicle bursts, it turns into the corpus luteum and begins to release progesterone. The progesterone travels through the fallopian tube into the uterus to build the endometrial wall lining.</string>
@@ -709,14 +741,17 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Corpus Luteum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plA-tg-afU">
-                                <rect key="frame" x="203" y="20" width="106" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta9-4H-5YF">
+                                <rect key="frame" x="37" y="389" width="300" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.72369791670000005" green="0.040605009480000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" red="0.72369791666666661" green="0.04060500947774056" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onPress:" destination="xtl-N3-8vV" eventType="touchUpInside" id="0tf-jm-QLx"/>
+                                    <segue destination="ZQU-BN-xnb" kind="show" id="wWO-cB-PlF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -745,7 +780,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ugv-Yx-lWH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4186.875" y="36.971830985915496"/>
+            <point key="canvasLocation" x="4186.3999999999996" y="36.431784107946029"/>
         </scene>
         <!--Emotions Explanation View Controller-->
         <scene sceneID="eqe-M4-3Ol">
@@ -756,15 +791,15 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                         <viewControllerLayoutGuide type="bottom" id="7sB-8A-bg3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HCq-Aa-gvk">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="BackgroundAlone copy" translatesAutoresizingMaskIntoConstraints="NO" id="Adm-bP-vl1">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KfA-CU-JaK">
-                                <rect key="frame" x="16" y="324" width="288" height="149"/>
+                                <rect key="frame" x="43" y="358" width="288" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Progesterone produces cortisol which is a stress hormone. This causes PMS (pre-menstrual symptoms). Therefore, it's completely normal to experience emotional fluctuations during this time.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -772,18 +807,18 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oh no! Why doesn't Vagmigo look well?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="In6-FK-2a9">
-                                <rect key="frame" x="0.0" y="28" width="320" height="39"/>
+                                <rect key="frame" x="27" y="28" width="320" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bloobSad" translatesAutoresizingMaskIntoConstraints="NO" id="avo-78-MQ0">
-                                <rect key="frame" x="-25" y="100" width="320" height="230"/>
+                                <rect key="frame" x="0.0" y="97" width="320" height="230"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pP0-cW-c1T">
-                                <rect key="frame" x="16" y="481" width="279" height="30"/>
+                                <rect key="frame" x="47" y="548" width="279" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92755681280000002" green="0.59122646515962507" blue="0.83308650232732129" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Next">
@@ -799,7 +834,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ncA-yh-yQu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4901" y="33"/>
+            <point key="canvasLocation" x="4900" y="32.833583208395808"/>
         </scene>
         <!--Wall Breakdown View Controller-->
         <scene sceneID="qBs-Cb-fih">
@@ -810,15 +845,15 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                         <viewControllerLayoutGuide type="bottom" id="ivT-mn-9Hb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="iRR-Gh-dVV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="4wJ-YP-Xxs">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap the bricks on the wall to make them fall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPq-fZ-uTW">
-                                <rect key="frame" x="0.0" y="18" width="320" height="25"/>
+                                <rect key="frame" x="27" y="9" width="320" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.020439891553875877" green="0.1977440257125207" blue="0.53207131410256414" alpha="1" colorSpace="calibratedRGB"/>
@@ -837,7 +872,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWb-g4-Pp7">
-                                <rect key="frame" x="81" y="42" width="63" height="30"/>
+                                <rect key="frame" x="101" y="42" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -849,7 +884,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAj-hI-dtn">
-                                <rect key="frame" x="168" y="42" width="63" height="30"/>
+                                <rect key="frame" x="210" y="42" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -861,7 +896,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awh-BF-vFG">
-                                <rect key="frame" x="257" y="42" width="63" height="30"/>
+                                <rect key="frame" x="312" y="42" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.72369791670000005" green="0.062297633810000003" blue="0.096614472709999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -873,7 +908,7 @@ Luckily, Vagmigo can catch a ride with the egg to the uterus!</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kkp-ng-V64">
-                                <rect key="frame" x="16" y="100" width="288" height="239"/>
+                                <rect key="frame" x="43" y="213" width="288" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.43024512339999998" green="0.62246844680000002" blue="0.92755681280000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Woah! Why is the wall falling apart?
@@ -887,14 +922,14 @@ Looks like Vagmigo is gonna ride the flow out with it.
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esF-ur-opU">
-                                <rect key="frame" x="16" y="100" width="288" height="239"/>
+                                <rect key="frame" x="43" y="213" width="288" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="onPresentButton:" destination="Ogt-3N-Xjy" eventType="touchUpInside" id="FXR-kp-46r"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQU-a7-RYr">
-                                <rect key="frame" x="34" y="478" width="252" height="43"/>
+                                <rect key="frame" x="61" y="543" width="252" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.56055867619999999" blue="0.90671977410000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="You've finished your cycle. It's ovary!">
@@ -919,7 +954,7 @@ Looks like Vagmigo is gonna ride the flow out with it.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HwS-yC-giQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5662.5" y="21.12676056338028"/>
+            <point key="canvasLocation" x="5661.6000000000004" y="20.239880059970016"/>
         </scene>
         <!--End Screen View Controller-->
         <scene sceneID="SeG-6y-gHe">
@@ -930,7 +965,7 @@ Looks like Vagmigo is gonna ride the flow out with it.
                         <viewControllerLayoutGuide type="bottom" id="nF3-Xg-jmv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cE0-rT-VDc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="pink" translatesAutoresizingMaskIntoConstraints="NO" id="1Ru-sI-zgi">
@@ -938,30 +973,41 @@ Looks like Vagmigo is gonna ride the flow out with it.
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Now it can live all happily in the outside lands, until the cycle begins all over again...oh wait, it's already begun." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tlm-bn-bNs">
-                                <rect key="frame" x="19" y="408" width="282" height="95"/>
+                                <rect key="frame" x="46" y="413" width="282" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You have successfully helped Vagmigo with its job in the menstrual cycle!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umK-vf-gwH">
-                                <rect key="frame" x="16" y="28" width="288" height="95"/>
+                                <rect key="frame" x="43" y="28" width="288" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bloob" translatesAutoresizingMaskIntoConstraints="NO" id="SVU-Wm-C3Y">
-                                <rect key="frame" x="-19" y="8" width="320" height="568"/>
+                                <rect key="frame" x="-3" y="33" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57x-Iz-V4x">
+                                <rect key="frame" x="43" y="609" width="288" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43024512339999998" green="0.62246844680000002" blue="0.92755681280000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Start Again">
+                                    <color key="titleColor" red="0.97364124770000005" green="1" blue="0.97953264600000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="buv-Z3-7o4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Msf-BO-hIe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6420" y="21"/>
+            <point key="canvasLocation" x="6420" y="20.239880059970016"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9Mm-Gg-HDQ">
@@ -969,7 +1015,7 @@ Looks like Vagmigo is gonna ride the flow out with it.
                 <navigationController storyboardIdentifier="NavController" automaticallyAdjustsScrollViewInsets="NO" id="XMY-Y8-KLs" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mba-Tt-Ax4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -998,4 +1044,8 @@ Looks like Vagmigo is gonna ride the flow out with it.
         <image name="uterus" width="320" height="568"/>
         <image name="vagmigo" width="74" height="74"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ghi-zD-rDq"/>
+        <segue reference="buv-Z3-7o4"/>
+    </inferredMetricsTieBreakers>
 </document>
